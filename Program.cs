@@ -19,3 +19,8 @@ void ShowArray(string[] array)
     }
     Console.WriteLine();
 }
+
+string[] array1 = new string[5] {"Russia", "2974r", "ell", "id", "result"};
+string[] array2 = new string[array1.Length];
+ShortPartArray(array1, array2);
+ShowArray(array2);
